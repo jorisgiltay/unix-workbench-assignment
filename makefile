@@ -2,7 +2,7 @@ all: README.md
 
 README.md:
 	touch README.md
-	echo "#Guessing Game Assignment for Unix-Workbench-Course" >> README.md
+	echo "# Guessing Game Assignment for Unix-Workbench-Course" >> README.md
 	echo "" >> README.md
 	echo "Date make was run:" >> README.md
 	-date >> README.md
