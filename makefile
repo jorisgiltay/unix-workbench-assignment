@@ -1,8 +1,7 @@
 all: README.md
 
 README.md:
-	touch README.md
-	echo "# Guessing Game Assignment for Unix-Workbench-Course\n" >> README.md
+	echo "# Guessing Game Assignment for Unix-Workbench-Course\n" > README.md
 	echo -n "Date make was run: " >> README.md
 	-date >> README.md
 	echo "\n" >> README.md
