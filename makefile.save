@@ -1,4 +1,0 @@
-readme.md:
-	touch readme.md
-	echo "#Guessing Game Assignment for Unix-Workbench-Course" > readme.md
-        
